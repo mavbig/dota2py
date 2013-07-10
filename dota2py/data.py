@@ -47,7 +47,7 @@ LEAVER_STATUS = {
 
 def load_heroes():
     """
-    Load hero details from JSON file into memoy
+    Load hero details from JSON file into memory
     """
 
     filename = os.path.join(os.path.dirname(__file__), "data", "heroes.json")
